@@ -1,0 +1,29 @@
+{
+    "artifact_type": "RESOURCE",
+    "typeName": "AWS::Logs::Test2",
+    "language": "java",
+    "runtime": "java8",
+    "entrypoint": "software.amazon.logs.test2.HandlerWrapper::handleRequest",
+    "testEntrypoint": "software.amazon.logs.test2.HandlerWrapper::testEntrypoint",
+    "settings": {
+        "version": false,
+        "subparser_name": null,
+        "verbose": 0,
+        "force": false,
+        "type_name": null,
+        "artifact_type": null,
+        "endpoint_url": null,
+        "region": null,
+        "target_schemas": [],
+        "profile": null,
+        "namespace": [
+            "software",
+            "amazon",
+            "logs",
+            "test2"
+        ],
+        "codegen_template_path": "guided_aws",
+        "protocolVersion": "2.0.0"
+    },
+    "executableEntrypoint": "software.amazon.logs.test2.HandlerWrapperExecutable"
+}
